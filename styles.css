@@ -1,3 +1,8 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: khaki;
+}
+
 .title {
     font-size: extra-large;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,16 +15,6 @@
     margin-right: auto;
     width: 12%;
     margin-bottom: 20px;
-}
-
-table {
-    border: 1px solid rgb(167, 53, 53);
-    padding-top: 10px;
-    align-content: center;
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 100px;
-    margin: 0 auto;
 }
 
 h2 > p {
@@ -38,15 +33,20 @@ img {
     margin-bottom: 50px;
 }
 
-footer {
-    text-align: center;
-}
-
 #headers {
     border: 100px solid black;
 }
 
-* {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: khaki;
+table {
+    border: 1px solid rgb(167, 53, 53);
+    padding-top: 10px;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+}
+
+footer {
+    text-align: center;
 }
