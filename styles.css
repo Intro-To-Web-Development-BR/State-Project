@@ -25,7 +25,32 @@ body {
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-weight: bold;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+#about {
+    background: #fff;
+    width: 50vw;
+    padding: 0;
+    /* margin: -.5rem 0 1.875rem; */
+    border-top: 5px solid #43aaa8;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.2);
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#about_text {
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
 }
 
 h2 > p {
@@ -36,7 +61,7 @@ h2 > p {
 }
 
 img {
-    margin-top: 50px;
+    margin-top: 25px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -56,6 +81,7 @@ table {
     margin-top: 50px;
     margin-bottom: 100px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 .footer {
