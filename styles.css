@@ -4,20 +4,34 @@
     color: cornflowerblue;
 }
 
+h2 {
+    color: lightseagreen;
+}
+
 table {
-    border: 1px solid black;
+    border: 5px solid black;
+    color: orangered;
     padding-top: 10px;
 }
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 50%;
     width: 40%;
+    box-shadow: 25px 50px gray;
 }
 
-#headers {
-    border: 100px solid black;
+div {
+    position: relative;
+    animation: pic_move 5s infinite;
+}
+
+@keyframes pic_move {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 500px;
+    }
 }
 
 * {
