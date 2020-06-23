@@ -84,6 +84,17 @@ table {
     margin-top: 20px;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 50px 100px;
+  }
+
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
 .footer {
     border-top: 0.1pt solid #a0aec0;
     width: 100%;
