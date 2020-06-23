@@ -62,25 +62,34 @@ h2>p {
 
 img {
     margin-top: 25px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 40%;
     margin-bottom: 50px;
+    position: relative;
+    animation: pic_move 3s infinite;
 }
 
 @keyframes pic_move {
     from {
-        left: 0px;
+        left: 200px;
     }
     to {
-        left: 500px;
+        left: 900px;
     }
 }
 
 table {
     border: 1px solid rgb(167, 53, 53);
     padding-top: 10px;
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+select {
+    border: 1px solid rgb(53, 167, 78);
     align-content: center;
     text-align: center;
     margin-top: 50px;
